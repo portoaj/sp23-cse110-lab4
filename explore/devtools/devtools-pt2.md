@@ -1,0 +1,2 @@
+1. The bug was caused by the type of eaching number being passed in as a string, so for example 1 + 2 would give an output of 12 b/c string concatenation was used instead of addition.
+2. To fix it you just need to cast each string to a number before the addition
